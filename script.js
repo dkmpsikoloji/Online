@@ -1,4 +1,3 @@
-<script>
 const siteConfig = {
     whatsappNumber: "905064279578",
     whatsappLink: "https://wa.me/905432783027",
@@ -84,7 +83,6 @@ window.onload = function () {
     // WhatsApp Float
     setAttr("whatsapp-float-btn", "href", siteConfig.whatsappLink);
 };
-</script>
 
 
 // Header scroll effect
