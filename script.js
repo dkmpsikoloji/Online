@@ -1,9 +1,9 @@
 <script>
 const siteConfig = {
-    whatsappNumber: "905432783027",
+    whatsappNumber: "905064279578",
     whatsappLink: "https://wa.me/905432783027",
-    instagramLink: "https://instagram.com/deryamuglu",
-    linkedinLink: "https://linkedin.com/in/deryamuglu",
+    instagramLink: "https://www.instagram.com/klinikpsikologderyamuglu?igsh=MXhhMmpvNjlwNXphag%3D%3D&utm_source=qr",
+    linkedinLink: "https://www.linkedin.com/in/derya-mu%C4%9Flu-a08531201?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     facebookLink: "https://facebook.com/deryamuglu",
     primaryEmail: "dkmpisikoloji@gmail.com",
     contactPhone: "+90 506 427 95 78",
