@@ -56,7 +56,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
         
         // Optionally redirect to WhatsApp with pre-filled message
         const whatsappMessage = `Merhaba Derya Hanım, web sitesinden randevu talebi gönderdim. Adım: ${name}`;
-        const whatsappUrl = `https://wa.me/905551234567?text=${encodeURIComponent(whatsappMessage)}`;
+        const whatsappUrl = `https://wa.me/905064279578?text=${encodeURIComponent(whatsappMessage)}`;
         
         if (confirm('WhatsApp üzerinden de hemen iletişime geçmek ister misiniz?')) {
             window.open(whatsappUrl, '_blank');
