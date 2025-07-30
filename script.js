@@ -35,18 +35,18 @@ window.onload = function () {
     };
 
     // Sayfa başlığı ve meta etiketleri
-    document.title = siteConfig.pageTitle;
-    setAttr("page-title", "textContent", siteConfig.pageTitle); // optional
-    setAttr("meta-description", "content", siteConfig.metaDescription);
-    setAttr("meta-author", "content", siteConfig.metaAuthor);
-    setAttr("og-title", "content", siteConfig.ogTitle);
-    setAttr("og-description", "content", siteConfig.ogDescription);
-    setAttr("og-url", "content", siteConfig.ogUrl);
-    setAttr("og-image", "content", siteConfig.ogImage);
-    setAttr("twitter-title", "content", siteConfig.twitterTitle);
-    setAttr("twitter-description", "content", siteConfig.twitterDescription);
-    setAttr("twitter-image", "content", siteConfig.twitterImage);
-    setAttr("canonical-url", "href", siteConfig.canonicalUrl);
+    //document.title = siteConfig.pageTitle;
+    //setAttr("page-title", "textContent", siteConfig.pageTitle); // optional
+    //setAttr("meta-description", "content", siteConfig.metaDescription);
+    //setAttr("meta-author", "content", siteConfig.metaAuthor);
+    //setAttr("og-title", "content", siteConfig.ogTitle);
+    //setAttr("og-description", "content", siteConfig.ogDescription);
+    //setAttr("og-url", "content", siteConfig.ogUrl);
+    //setAttr("og-image", "content", siteConfig.ogImage);
+    //setAttr("twitter-title", "content", siteConfig.twitterTitle);
+    //setAttr("twitter-description", "content", siteConfig.twitterDescription);
+    //setAttr("twitter-image", "content", siteConfig.twitterImage);
+    //setAttr("canonical-url", "href", siteConfig.canonicalUrl);
 
     // Logo ve hero alanları
     setText("logo-text", siteConfig.businessName);
