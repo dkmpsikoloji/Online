@@ -1,3 +1,92 @@
+<script>
+const siteConfig = {
+    whatsappNumber: "905432783027",
+    whatsappLink: "https://wa.me/905432783027",
+    instagramLink: "https://instagram.com/deryamuglu",
+    linkedinLink: "https://linkedin.com/in/deryamuglu",
+    facebookLink: "https://facebook.com/deryamuglu",
+    primaryEmail: "dkmpisikoloji@gmail.com",
+    contactPhone: "+90 506 427 95 78",
+    location: "Kocaeli, Türkiye",
+    workingHours: "Pazartesi-Cuma: 09:00-18:00<br>Cumartesi: 09:00-14:00",
+    businessName: "Uzman Klinik Psikolog Derya Karakulak Muğlu",
+    businessTagline: "Profesyonel psikolojik destek • Kocaeli • Online terapi seçeneği mevcut",
+    pageTitle: "Uzman Klinik Psikolog Karakulak Derya Muğlu | DKMPsikoloji",
+    metaDescription: "Uzman Klinik Psikolog Derya Karakulak Muğlu | Kocaeli'de bireysel, çift, çocuk psikolojisi ve online terapi hizmetleri.",
+    metaAuthor: "Derya Karakulak Muğlu",
+    ogTitle: "Derya Karakulak Muğlu | Uzman Klinik Psikolog",
+    ogDescription: "Kocaeli'de bireysel ve online terapi hizmetleri - EMDR, BDT, Travma Terapisi ve daha fazlası.",
+    ogUrl: "https://dkmpsikoloji.github.io/",
+    ogImage: "https://dkmpsikoloji.github.io/assets/og-image.jpg",
+    twitterTitle: "Uzman Klinik Psikolog Derya Karakulak Muğlu",
+    twitterDescription: "Psikolojik destek, terapi ve danışmanlık. Kocaeli ve online hizmet.",
+    twitterImage: "https://dkmpsikoloji.github.io/assets/og-image.jpg",
+    canonicalUrl: "https://dkmpsikoloji.github.io/"
+};
+
+window.onload = function () {
+    const setText = (id, value) => {
+        const el = document.getElementById(id);
+        if (el) el.innerHTML = value;
+    };
+    const setAttr = (id, attr, value) => {
+        const el = document.getElementById(id);
+        if (el) el.setAttribute(attr, value);
+    };
+
+    // Sayfa başlığı ve meta etiketleri
+    document.title = siteConfig.pageTitle;
+    setAttr("page-title", "textContent", siteConfig.pageTitle); // optional
+    setAttr("meta-description", "content", siteConfig.metaDescription);
+    setAttr("meta-author", "content", siteConfig.metaAuthor);
+    setAttr("og-title", "content", siteConfig.ogTitle);
+    setAttr("og-description", "content", siteConfig.ogDescription);
+    setAttr("og-url", "content", siteConfig.ogUrl);
+    setAttr("og-image", "content", siteConfig.ogImage);
+    setAttr("twitter-title", "content", siteConfig.twitterTitle);
+    setAttr("twitter-description", "content", siteConfig.twitterDescription);
+    setAttr("twitter-image", "content", siteConfig.twitterImage);
+    setAttr("canonical-url", "href", siteConfig.canonicalUrl);
+
+    // Logo ve hero alanları
+    setText("logo-text", siteConfig.businessName);
+    setText("hero-title", siteConfig.businessName);
+    setText("hero-description", "Zihinsel sağlığınız için profesyonel destek ve kişisel gelişim yolculuğunuzda güvenilir rehberlik");
+    setAttr("hero-whatsapp-btn", "href", siteConfig.whatsappLink);
+
+    // Hakkımda bölümü (değişken değil ama dinamik yapılabilir)
+    setText("about-title", siteConfig.businessName);
+
+    // İletişim bölümü
+    setText("contact-phone", siteConfig.contactPhone);
+    setText("contact-email", siteConfig.primaryEmail);
+    setText("contact-location", siteConfig.location);
+    setText("contact-hours", siteConfig.workingHours);
+    setText("online-therapy-note", "Online Terapi Seçeneği Mevcuttur");
+
+    // Footer içerikleri
+    setAttr("footer-whatsapp", "href", siteConfig.whatsappLink);
+    setAttr("footer-instagram", "href", siteConfig.instagramLink);
+    setAttr("footer-linkedin", "href", siteConfig.linkedinLink);
+    setAttr("footer-facebook", "href", siteConfig.facebookLink);
+    setAttr("footer-email", "href", "mailto:" + siteConfig.primaryEmail);
+
+    setAttr("contact-whatsapp", "href", siteConfig.whatsappLink);
+    setAttr("contact-instagram", "href", siteConfig.instagramLink);
+    setAttr("contact-linkedin", "href", siteConfig.linkedinLink);
+    setAttr("contact-facebook", "href", siteConfig.facebookLink);
+    setAttr("contact-email-link", "href", "mailto:" + siteConfig.primaryEmail);
+
+    setText("copyright-text", `© 2025 ${siteConfig.businessName}. Tüm hakları saklıdır.`);
+    setText("footer-tagline", siteConfig.businessTagline);
+    setText("footer-privacy", "Gizlilik ve etik kurallar çerçevesinde hizmet verilmektedir");
+
+    // WhatsApp Float
+    setAttr("whatsapp-float-btn", "href", siteConfig.whatsappLink);
+};
+</script>
+
+
 // Header scroll effect
 window.addEventListener('scroll', function() {
     const header = document.getElementById('header');
