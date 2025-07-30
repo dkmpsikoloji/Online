@@ -8,7 +8,7 @@ const siteConfig = {
     contactPhone: "+90 506 427 95 78",
     location: "Kocaeli, Türkiye",
     workingHours: "Pazartesi-Cuma: 09:00-18:00<br>Cumartesi: 09:00-14:00",
-    businessName: "Uzman Klinik Psikolog Derya Karakulak Muğlu",
+    businessName: "Uzman Klinik Psikolog Derya Muğlu",
     businessTagline: "Profesyonel psikolojik destek • Kocaeli • Online terapi seçeneği mevcut",
     pageTitle: "Uzman Klinik Psikolog Derya Muğlu | DKMPsikoloji",
     metaDescription: "Uzman Klinik Psikolog Derya Muğlu | Kocaeli'de bireysel, çift, çocuk psikolojisi ve online terapi hizmetleri.",
