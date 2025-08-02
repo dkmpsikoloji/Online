@@ -98,10 +98,15 @@ window.addEventListener('scroll', function() {
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
         const targetSelector = this.getAttribute('href');
+
+        // Eğer href sadece "#" ise veya boşsa, kaydırma yapma
+        if (!targetSelector || targetSelector === "#") return;
+
         const target = document.querySelector(targetSelector);
+
         if (target) {
+            e.preventDefault();  // sadece geçerli hedef varsa engelle
             target.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start'
@@ -233,3 +238,4 @@ emergencyBtn.style.cssText = `
 emergencyBtn.onclick = showEmergencyInfo;
 emergencyBtn.title = 'Acil Durum Yardımı';
 document.body.appendChild(emergencyBtn);
+
